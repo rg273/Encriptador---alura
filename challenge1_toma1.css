@@ -1,0 +1,219 @@
+
+body{
+    background: #E5E5E5;
+}
+
+.principal-box{
+    width: 90%;
+    height: 90vh;
+    margin: 30px auto;
+}
+.container-elementos-box{
+    width: 10px;
+    height: 100px;
+    display: inline-block;
+    width: 71%;
+    height: 100%;
+    padding: 40px 40px 72px 40px;
+    box-sizing: border-box;
+
+}
+.elementos-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.logo_alura{
+    width: 31px;
+    height: 48px;
+}
+
+.textare-AND-buttons{
+    width: 80%;
+    height: 85%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.textare-AND-buttons textarea{
+    background-color: #E5E5E5;
+    border: none;
+    text-decoration: none;
+}
+
+
+.texto-traducir{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 32px;
+    color:#0A3871;          
+    outline: none;
+    min-height: 60%;
+    box-sizing: border-box;
+}
+.texto-traducir:hover{
+    box-sizing: border-box;
+    border: gray 1px dashed;
+    
+}
+.texto-traducir:active{
+    box-sizing: border-box;
+    border: gray 1px dashed;
+}
+.texto-traducir:focus{
+    box-sizing: border-box;
+    border: gray 1px dashed;
+    
+}
+.elements{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.elements div{
+    display: flex;
+    align-items: center;
+    height: 30%;
+}
+.icon-warning{
+    max-height: 16px;
+}
+.elements div p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+.elements section{
+    text-align: center;
+    height: 100%;
+    padding: 20px 0 0 0 ;
+}
+
+.button-elements {
+    width: 40%;
+    height: 100%;
+    border-radius: 24px;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.encriptador{
+    background-color: #0A3871;
+    color: #fff;
+}
+.desencriptardor{
+    background-color: #fff;
+    color: #0A3871;
+    border: 1px #0A3871 solid;
+    background-color: #E5E5E5;
+}
+
+.resultado-box{
+    width: 28%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    float: right;
+    
+}
+/* ////////////////////PARTE PAGINA DEFAULT/////////////////////////// */
+
+.white-container{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 22px;
+    justify-content: center;
+}
+
+.white-container .titulo-Cuando-no-haytexto{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #343A40;
+    
+}
+.white-container .parrafo-Cuando-no-haytexto{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #495057;
+}
+
+/* ////////////////////PARTE PAGINA CON TRADUCION/////////////////////////// */
+
+/* .white-container{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 22px;
+} */
+.resultado-box textarea{
+    margin: 0px 22px 0px 22px;
+    max-height: 90%;
+    overflow-y: auto;
+}
+.texto-traducido{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #495057;
+    min-height: 50%;
+    outline: none;
+    border: none;
+    background-image: url(imagenes/MuñecoMuñeco.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+
+}
+.texto-traducido:active{
+    outline: none;
+    border: none;
+}
+
+.resultado-box button{
+    width: 80%;
+    margin: 0px auto 32px auto;
+    height: 40px;
+    padding: 4px;
+    margin-top: 22px;
+    box-sizing: border-box;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0A3871;
+    background-color: #fff;
+}

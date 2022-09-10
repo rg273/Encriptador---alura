@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="challenge1_toma1.css">
+    <link rel="stylesheet" href="/Challenge 1 - encriptador/imagenes/reset.css">
+    
+</head>
+<body>
+    <main class="principal-box">
+        <div class="container-elementos-box">
+            <div class="elementos-box">
+                <img src="imagenes/VectorLogo.png" alt="Logo_alura" class="logo_alura">
+                <section class="textare-AND-buttons">
+                    <textarea type="text"  placeholder="Ingrese el texto aqui" class="texto-traducir"></textarea>
+                    <section class="elements">
+                        <div>
+                            <img src="imagenes/VectorSigno_Warning.png" class="icon-warning">
+                            <p>Solo letras minusculas y sin acentos</p>    
+                        </div>
+                        <section >
+                            <button class="button-elements encriptador" onclick="btnEncriptar()">Encriptar</button>
+                            <button class="button-elements desencriptardor" onclick="btnDesencriptar()">Desencriptar</button>
+                        </section>
+                        
+                    </section>
+                </section>
+            </div>
+        </div>
+        <div class="resultado-box">
+            <section class="white-container">
+                <textarea class="texto-traducido" ></textarea>
+                <div >
+                    <h3 class="titulo-Cuando-no-haytexto">Ningun mensaje fue encontrado</h3>
+                    <p class="parrafo-Cuando-no-haytexto">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <button onclick="btn_copy()" id="button_copy">Copiar</button>
+            </section>
+        </div>
+    </main>
+    <script src="/Challenge_1_toma1.js"></script>
+</body>
+</html>
